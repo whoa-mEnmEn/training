@@ -1,2 +1,2 @@
 # training
-I'm still practiscing
+I'm still practicing
