@@ -5,7 +5,7 @@ sum_asm:
 	movl	$array, %edx
 	movl	array_size, %ecx
 L1:
-	add (%edx), %eax
-	add $4, %edx
-	loop	L1
+	add		(%edx), %eax
+	add 	$4, %edx
+	loop	Ls1
 	ret
